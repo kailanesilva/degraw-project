@@ -258,3 +258,143 @@ footer h3{
     text-decoration: none;
     border-bottom: 1px solid #f08e80;
 }
+
+@media screen and (max-width: 1100px){
+    
+    .items{
+        position: relative;
+    }
+
+    .items input{
+        position: absolute;
+        right: -210px;
+        top: -25px;
+    }
+
+    .services-container {
+        text-align: center;
+    }
+
+    .blockquote-container{
+        width: 300px;
+    }
+
+    .img{
+        position: relative;
+    }
+
+    .img img{
+        position: absolute;
+        width: 550px;
+        left: -125px;
+        top: 58px;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 900px){
+
+    .header-container{
+        position: relative;
+    }
+ 
+    .items{
+        position: absolute;
+        left: -80px;
+    }
+
+    .blockquote-container{
+        width: 200px;
+    }
+
+    .blockquote-container blockquote{
+        height: 500px;
+    }
+
+    .img{
+        position: relative;
+    }
+
+    .img img{
+        position: absolute;
+        width: 400px;
+        height: 650px;
+        left: -145px;
+    }
+
+    @media screen and (max-width: 575px){
+
+        .header-container{
+            position: relative;
+        }
+
+        .header-container h3{
+            position: absolute;
+            left: 5px
+        }
+
+        .header-container .items{
+            position: absolute;
+            left: -80px;
+            top: 40px;
+        }
+
+        .header-container .items input{
+            position: relative;
+            align-items: center;
+            right: 50%;
+            top: 40px;
+        }
+
+        .main-container {
+            padding-top: 30px;
+        }
+
+        .main-title h1 {
+            width: 550px;
+            font-size: 58px;
+        }
+
+        .phrase p{
+            width: 500px;
+            font-size: 30px;
+        }
+        
+        .services-container h2{
+            padding-top: 50px;
+            padding-bottom: 40px;
+        }
+
+        .blockquote-container {
+            width: 100px;
+        }
+
+        .blockquote-container blockquote{
+            padding-top: 10px;
+            padding-bottom: 0;
+            width: 230px;
+            height: 415px;
+            font-size: 19px;
+        }
+
+        .blockquote-container blockquote p{
+            font-size: 25px;
+            padding-top: 0px;
+        }
+
+        .img{
+            position: relative;
+            margin-bottom: 15px;
+        }
+
+        .img img {
+            position: absolute;
+            width: 318px;
+            height: 520px;
+            left: -427px;
+        }
+    }
+}
